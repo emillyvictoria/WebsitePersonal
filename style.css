@@ -66,7 +66,7 @@ ul {
 }
 
 .navbar.scrolled {
-    background-color: rgb(5, 25, 55,  0.950);
+    background-color: rgb(5, 25, 55, 0.950);
 }
 
 .nav-links {
@@ -144,7 +144,6 @@ header::before {
     border-radius: 30px;
     color: whitesmoke;
 
-
 }
 
 .menu-btn {
@@ -160,15 +159,10 @@ header::before {
 .form {
     display: flex;
     justify-content: center;
-    /* Centraliza horizontalmente */
     align-items: center;
-    /* Centraliza verticalmente */
     height: 100vh;
-    /* Altura total da janela de visualização */
     padding-top: 400px;
-    /* Espaçamento superior para a navbar */
     padding-bottom: 200px;
-    /* Espaçamento superior para a navbar */
     background-color: #f1f1f1;
 }
 
@@ -183,7 +177,7 @@ header::before {
     color: whitesmoke;
     font-family: 'Poppins';
     z-index: 999;
-    background-color: #333;
+    background-color: rgb(5, 25, 55, 0.950);
 }
 
 /*Consultoria online*/
@@ -599,7 +593,7 @@ section {
 
 /*Footer*/
 footer {
-    background-color:#051937;
+    background-color: #051937;
     padding: 20px 0;
     color: whitesmoke;
     text-align: left;
@@ -659,7 +653,7 @@ footer {
     color: whitesmoke;
     font-size: 20px;
     text-align: center;
-    
+
 }
 
 .footer-bottom {
@@ -667,7 +661,7 @@ footer {
 }
 
 
-/* Mobile device */
+/* Responsividade */
 @media only screen and (max-width: 850px) {
     .menu-btn {
         display: block;
