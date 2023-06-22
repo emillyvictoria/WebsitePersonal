@@ -28,6 +28,11 @@ $(document).ready(function(){
 
 const header = document.querySelector('.header');
 
-window.addEventListener('scroll', () => { 
+/*window.addEventListener('scroll', () => { 
     header.classList.toggle('sticky', window.scrollY > 0);  
- });
+ });*/
+
+ window.addEventListener('scroll', function() {
+    var navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('scrolled', window.scrollY > 0);
+  });
